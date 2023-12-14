@@ -1,0 +1,61 @@
+*{
+    position:relative;
+    box-sizing:border-box;
+}
+
+
+/*============Nav===============*/
+.navItems{
+    display:flex;
+    justify-content:space-between;
+    margin:10px 10px;
+}
+
+h1{
+    text-align:center;
+}
+
+html{
+    background-color:white;
+}
+body{
+    border:2px solid black;
+    width:350px;
+    height:100vh;
+    position:absolute;
+    left:500px;
+    background-image:url(bluecardboard.jpeg);
+    background-size:cover;
+}
+
+.currentImg{
+    height:150px;
+    padding:0;
+    margin:0;
+}
+
+main{
+    display:flex;
+    justify-content:center;
+}
+section{
+    position:relative;
+}
+h2{
+    text-align:center;
+    position:absolute;
+    top:50px;
+    left:95px;
+    
+}
+.allForecast{
+    display:flex;
+    position:relative;
+    overflow:hidden;
+}
+
+.forecastSum{
+    margin-top:150px;
+    padding:0 20px;
+    width:25%;
+}
