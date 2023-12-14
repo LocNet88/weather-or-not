@@ -24,8 +24,7 @@ body{
     height:100vh;
     position:absolute;
     left:500px;
-    background-image:url(bluecardboard.jpeg);
-    background-size:cover;
+    background-image:liner-gradient(#62cff4, #2c67f2);
 }
 
 .currentImg{
