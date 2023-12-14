@@ -11,8 +11,16 @@
     margin:10px 10px;
 }
 
+.fa{
+    color:white;
+}
+
+span{
+    font-size:25px;
+}
 h1{
     text-align:center;
+    font-size:40px;
 }
 
 html{
@@ -24,7 +32,9 @@ body{
     height:100vh;
     position:absolute;
     left:500px;
-    background-image:liner-gradient(#62cff4, #2c67f2);
+    background-image:linear-gradient(to bottom right, #62cff4, #2c67f2);
+    border-radius:20px;
+    padding:10px 10px;
 }
 
 .currentImg{
@@ -39,22 +49,34 @@ main{
 }
 section{
     position:relative;
+    
 }
 h2{
     text-align:center;
     position:absolute;
     top:50px;
-    left:95px;
+    left:80px;
     
 }
 .allForecast{
     display:flex;
     position:relative;
     overflow:hidden;
+    margin-top:-30px;
+    height:300px;
 }
 
 .forecastSum{
     margin-top:150px;
     padding:0 20px;
     width:25%;
+}
+
+.forecastImg{
+    height:40px;
+}
+
+.temp{
+    text-align:center;
+    font-weight:bold;
 }
