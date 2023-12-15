@@ -79,4 +79,6 @@ h2{
 .temp{
     text-align:center;
     font-weight:bold;
+    width:15px;
+    height:15px;
 }
